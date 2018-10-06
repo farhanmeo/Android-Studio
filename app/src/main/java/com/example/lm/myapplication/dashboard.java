@@ -31,7 +31,7 @@ public class dashboard extends AppCompatActivity {
         try {
 
             PrintStream out = new PrintStream(openFileOutput("category.txt", MODE_APPEND));
-            out.println("Welcome To MSE");
+            //out.println("Welcome To MSE");
 
             final Scanner scanner =  new Scanner(openFileInput("category.txt"));
             while(scanner.hasNextLine())
